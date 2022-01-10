@@ -5,7 +5,7 @@
 using namespace std;
 int main(int argc, char *argv[])
 {
- for ( int i=6;i<=36;i+=2)
+ for ( int i=5;i<=35;i+=2)
 {
 cout<<i<<",";
 }
