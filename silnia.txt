@@ -1,0 +1,22 @@
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char argv[])
+{
+    int n_kon;
+    int silnia_kon=1;
+
+    cout<<"Podaj n: ";
+    cin>>n_kon;
+
+for(int i=n_kon;i>1;i--)
+    silnia_kon=silnia_kon*i;
+
+    cout<<n_kon<<"! = "<<silnia_kon<<endl;
+
+
+    system("PAUSE");
+    return EXIT_SUCCESS;
+}
